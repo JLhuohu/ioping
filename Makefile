@@ -5,7 +5,7 @@ MAN1DIR=$(PREFIX)/share/man/man1
 
 SRCS=ioping.c
 BINARY=ioping
-MANS=ioping.1
+MANS=ioping.2
 MANS_F=$(MANS:.1=.txt) $(MANS:.1=.pdf)
 DOCS=README.md LICENSE changelog
 SPEC=ioping.spec
